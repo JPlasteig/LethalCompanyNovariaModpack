@@ -1,0 +1,222 @@
+## Settings file was created by plugin Rolling Giant v2.5.1
+## Plugin GUID: nomnomab.rollinggiant
+
+[1. General Settings]
+
+## The min scale of the Rolling Giant inside.
+## This is a multiplier, so 0.5 is half as large.
+# Setting type: Single
+# Default value: 0.9
+GiantScaleInsideMin = 0.9
+
+## The max scale of the Rolling Giant inside.
+## This is a multiplier, so 2 is twice as large.
+# Setting type: Single
+# Default value: 1.1
+GiantScaleInsideMax = 1.1
+
+## The min scale of the Rolling Giant outside.
+## This is a multiplier, so 0.5 is half as large.
+# Setting type: Single
+# Default value: 0.9
+GiantScaleOutsideMin = 0.9
+
+## The max scale of the Rolling Giant outside.
+## This is a multiplier, so 2 is twice as large.
+# Setting type: Single
+# Default value: 1.1
+GiantScaleOutsideMax = 1.1
+
+## Where the Rolling Giant can spawn.
+## Separate each level with a comma, and put a chance (no decimals) separated by a colon.
+## Vanilla caps at 100, but you can go farther.
+## This chance is also a weight, not a percentage.
+## Higher chance = higher chance to get picked
+## The names are what you see in the terminal
+## Example: Vow:6,March:10
+# Setting type: String
+# Default value: Vow:45,March:45,Rend:54,Dine:65,Offense:45,Titan:65
+SpawnIn = Vow:45,March:45,Rend:54,Dine:65,Offense:45,Titan:65
+
+## The chance for the Rolling Giant to spawn outside.
+## Is used alongside SpawnIn.
+## This is a weight, not a percentage.
+## Higher chance = higher chance to get picked
+# Setting type: Int32
+# Default value: 45
+SpawnInOutsideChance = 45
+
+## If the Rolling Giant can spawn in any level.
+# Setting type: Boolean
+# Default value: false
+SpawnInAny = false
+
+## The chance for the Rolling Giant to spawn in any level.
+## Requires SpawnInAny to be enabled!
+## This is a weight, not a percentage.
+## Higher chance = higher chance to get picked
+# Setting type: Int32
+# Default value: 45
+SpawnInAnyChance = 45
+
+## The chance for the Rolling Giant to spawn outside when spawning in any level.
+## Requires SpawnInAny to be enabled!
+## This is a weight, not a percentage.
+## Higher chance = higher chance to get picked
+# Setting type: Int32
+# Default value: 45
+SpawnInAnyOutsideChance = 45
+
+## If the Rolling Giant can spawn inside.
+# Setting type: Boolean
+# Default value: true
+CanSpawnInside = true
+
+## If the Rolling Giant can spawn outside.
+# Setting type: Boolean
+# Default value: false
+CanSpawnOutside = false
+
+## If the Rolling Giant will turn off if it is outside at night.
+# Setting type: Boolean
+# Default value: false
+DisableOutsideAtNight = false
+
+## The maximum amount of Rolling Giants that can spawn in a level.
+# Setting type: Int32
+# Default value: 3
+MaxPerLevel = 3
+
+## Where the Rolling Giant poster scrap can spawn.
+## Separate each level with a comma, and put a chance separated by a colon.
+## Vanilla caps at 100, but you can go farther.
+## This chance is also a weight, not a percentage.
+## Higher chance = higher chance to get picked
+## The names are what you see in the terminal
+## Example: Vow:12,March:12,Rend:12,Dine:12,Offense:12,Titan:12
+# Setting type: String
+# Default value: Vow:12,March:12,Rend:12,Dine:12,Offense:12,Titan:12
+SpawnPosterIn = Vow:12,March:12,Rend:12,Dine:12,Offense:12,Titan:12
+
+[2. AI Settings]
+
+## The AI type of the Rolling Giant.
+## (Putting multiple will randomly choose between them each time you land on a moon)
+## Coilhead: Coilhead AI
+## InverseCoilhead: Move when player is looking at it
+## RandomlyMoveWhileLooking: Randomly move while the player is looking at it
+## LookingTooLongKeepsAgro: If the player looks at it for too long it doesn't stop chasing
+## FollowOnceAgro: Once the player is noticed, the Rolling Giant will follow the player constantly
+## OnceSeenAgroAfterTimer: Once the player sees the Rolling Giant, it will chase the player after a timer
+## All: Will put all AI types into the selection for you
+# Setting type: RollingGiantAiType
+# Default value: RandomlyMoveWhileLooking
+# Acceptable values: Coilhead, InverseCoilhead, RandomlyMoveWhileLooking, LookingTooLongKeepsAgro, FollowOnceAgro, OnceSeenAgroAfterTimer, All
+# Multiple values can be set at the same time by separating them with , (e.g. Debug, Warning)
+AiType = RandomlyMoveWhileLooking
+
+## If the AI type should change every X hours. This will affect already spawned Rolling Giants!
+## If set to 0 it will not change.
+## Will pick from the values set in AiType.
+# Setting type: Int32
+# Default value: 0
+AiTypeChangeOnHourInterval = 0
+
+## The speed of the Rolling Giant in m/s².
+# Setting type: Single
+# Default value: 6
+MoveSpeed = 6
+
+## How long it takes the Rolling Giant to get to its movement speed. in seconds
+# Setting type: Single
+# Default value: 2
+MoveAcceleration = 2
+
+## How long it takes the Rolling Giant to stop moving in seconds.
+# Setting type: Single
+# Default value: 0.5
+MoveDeceleration = 0.5
+
+## If the Rolling Giant should rotate to look at the player.
+# Setting type: Boolean
+# Default value: true
+RotateToLookAtPlayer = true
+
+## The delay before the Rolling Giant looks at the player in seconds.
+# Setting type: Single
+# Default value: 2
+DelayBeforeLookingAtPlayer = 2
+
+## The duration the Rolling Giant looks at the player in seconds.
+# Setting type: Single
+# Default value: 3
+LookAtPlayerDuration = 3
+
+[AI.LookingTooLongKeepsAgro]
+
+## How long the player can look at the Rolling Giant before it starts chasing in seconds.
+# Setting type: Single
+# Default value: 12
+LookTimeBeforeAgro = 12
+
+[AI.OnceSeenAgroAfterTimer]
+
+## The minimum duration in seconds the Rolling Giant waits before chasing the player.
+# Setting type: Single
+# Default value: 15
+WaitTimeMin = 15
+
+## The minimum duration in seconds the Rolling Giant waits before chasing the player.
+# Setting type: Single
+# Default value: 30
+WaitTimeMax = 30
+
+[AI.RandomlyMoveWhenLooking]
+
+## The minimum duration in seconds that the Rolling Giant waits before moving again.
+# Setting type: Single
+# Default value: 1
+WaitTimeMin = 1
+
+## The maximum duration in seconds that the Rolling Giant waits before moving again.
+# Setting type: Single
+# Default value: 3
+WaitTimeMax = 3
+
+## The minimum duration in seconds that the Rolling Giant moves for.
+# Setting type: Single
+# Default value: 1
+RandomMoveTimeMin = 1
+
+## The maximum duration in seconds that the Rolling Giant moves for.
+# Setting type: Single
+# Default value: 3
+RandomMoveTimeMax = 3
+
+[Host]
+
+## The key to go to the previous AI type. This uses Unity's New Input System's key-bind names.
+## https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/Controls.html#control-paths
+# Setting type: String
+# Default value: <Keyboard>/numpad7
+GotoPreviousAiTypeKey = <Keyboard>/numpad7
+
+## The key to go to the next AI type. This uses Unity's New Input System's key-bind names.
+## https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/Controls.html#control-paths
+# Setting type: String
+# Default value: <Keyboard>/numpad8
+GotoNextAiTypeKey = <Keyboard>/numpad8
+
+## The key to reload the config. Does not update spawn conditions. This uses Unity's New Input System's key-bind names.
+## https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/Controls.html#control-paths
+# Setting type: String
+# Default value: <Keyboard>/numpad9
+ReloadConfigKey = <Keyboard>/numpad9
+
+[z_Ignore]
+
+## The version of this config file. Do not change this.
+# Setting type: Int32
+# Default value: 0
+__version = 0
+

@@ -1,0 +1,188 @@
+ManifestFileVersion: 0
+CRC: 1311230722
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a852f12c8c690ff8b099ff2ee257fb78
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c76c5cd98169df1c312684d1b8a5bfcb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a852f12c8c690ff8b099ff2ee257fb78
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+- Class: 114
+  Script: {fileID: 197061126, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaa3b8214f75b354e9ba2caadd022259, type: 3}
+- Class: 114
+  Script: {fileID: -2006330137, guid: 138b4eb11884c8b175831866fa6e3bff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad461886cd54dee46ad3db3cfc357c7d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 598e2d32e2c7b0c418e030c3236d663a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e4175cfcd1a037419b8aa4544b686ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae3fc3d19a83a334e8810ff8b41ef1f4, type: 3}
+- Class: 114
+  Script: {fileID: 1900770965, guid: e05ccaab04c6e6d6846f982f18ec18fa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ae2635ff5d87084aa14aba8ada528cb, type: 3}
+- Class: 114
+  Script: {fileID: -91948227, guid: 2fa277733cf6e1533c5b7283121f7261, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7c3b34872fba1b64b98becd02040da5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b51a78e223a2e504bb88a059b55229ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 36723aecc9a98ac4492ff561e37a33f0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4d74213901158649bc0afec65f0a6b8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.Netcode.Runtime
+  ClassName: Unity.Netcode.NetworkVariable`1[System.Single]
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BoolParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedIntParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ColorParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.FloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.MinFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.Texture2DParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.BloomResolutionParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.BoolScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.DepthOfFieldModeParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.DepthOfFieldResolutionParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.FilmGrainLookupParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.FocusDistanceModeParameter
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.IntScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.ScalableSettingLevelParameter
+Assets:
+- Assets/Backrooms/SkibidiToiletMale07 Variant.prefab
+- Assets/Backrooms/Skibidi/textures/toilet.png
+- Assets/Backrooms/Materials/Ceiling2.mat
+- Assets/Backrooms/floor.prefab
+- Assets/Backrooms/Skibidi/source/SkibidiToiletMale07 1.controller
+- Assets/Backrooms/ceiling.prefab
+- Assets/Scenes/SampleScene/Backrooms Profile.asset
+- Assets/Backrooms/textures/Walls_Metallic.tga.png
+- Assets/Backrooms/Skibidi/textures/toilet.mat
+- Assets/Backrooms/textures/MainRoom_CaptainsChair_Roughness.tga.png
+- Assets/Backrooms/cube.prefab
+- Assets/Backrooms/Skibidi/textures/eyel.mat
+- Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
+- Assets/Backrooms/ControlRoom.prefab
+- Assets/Backrooms/textures/Ship_MainRoom_ControlPanel_Normal_DirectX.png
+- Assets/Scenes/SampleScene/smile Profile.asset
+- Assets/Backrooms/textures/MainRoom_CaptainsChair_Normal_DirectX.tga.png
+- Assets/Backrooms/textures/Emmisive.png
+- Assets/Backrooms/Skibidi/textures/mike_facemap.png
+- Assets/Backrooms/Models/smile.fbx
+- Assets/Backrooms/Skibidi/textures/eyeball_l.png
+- Assets/Backrooms/Models/Carpet.mat
+- Assets/Backrooms/Models/Shine.mat
+- Assets/Backrooms/textures/Controll.mat
+- Assets/Backrooms/Models/wall.fbx
+- Assets/Backrooms/textures/Wall.mat
+- Assets/Backrooms/lightlessceiling.prefab
+- Assets/Backrooms/ControlRoom Variant.prefab
+- Assets/Backrooms/textures/Walls_Roughness.tga.png
+- Assets/Backrooms/textures/Walls_Normal_DirectX.tga.png
+- Assets/Backrooms/337434__ev-dawg__speaker-buzz.wav
+- Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/Texture/HDAdditionalLightData.png
+- Assets/Backrooms/Skibidi/textures/mouth.mat
+- Assets/Backrooms/Models/Light.mat
+- Assets/Backrooms/Models/pillar.fbx
+- Assets/Backrooms/hrsvamowsdra.jpg
+- Assets/Backrooms/backrooms.prefab
+- Assets/Backrooms/Skibidi/source/Armature.controller
+- Assets/Backrooms/Skibidi/textures/mouth.png
+- Assets/Backrooms/textures/MainRoom_CaptainsChair_Base_Color.tga.png
+- Assets/Backrooms/pillar.prefab
+- Assets/Backrooms/cn40k99826b91.jpg
+- Assets/Backrooms/Models/ControlRoom.obj
+- Assets/Backrooms/wall.prefab
+- Assets/Backrooms/Materials/Floor.mat
+- Assets/Backrooms/smile.prefab
+- Assets/Backrooms/Models/lightlessceiling.fbx
+- Assets/Backrooms/WoodFine0058_30_350.jpg
+- Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png
+- Assets/Backrooms/Skibidi/source/SkibidiToiletMale07.prefab
+- Assets/Backrooms/room.prefab
+- Assets/Backrooms/Models/ceiling.fbx
+- Assets/Backrooms/Models/floor.fbx
+- Assets/Backrooms/textures/Ship_MainRoom_ControlPanel_Base_Color.png
+- Assets/Backrooms/Skibidi/source/SkibidiToiletMale07.fbx
+- Assets/Backrooms/textures/Walls_Base_Color.tga.png
+- Assets/Backrooms/Skibidi/textures/face.mat
+- Assets/Backrooms/textures/MainRoom.mat
+- Assets/Backrooms/Skibidi/textures/eyeball_r.png
+Dependencies: []
